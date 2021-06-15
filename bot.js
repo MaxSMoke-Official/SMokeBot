@@ -1,2 +1,5 @@
 //vk lib
-const newvk = require('./lib/vk.js'); 
+const vk = require('./lib/vk.js');
+vk.handler("test", () => {
+  //do something
+});
